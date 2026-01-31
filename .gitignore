@@ -1,0 +1,5 @@
+
+
+# Ignore node_modules for backend and frontend projects
+/food-delivery-backend/node_modules/
+/food-delivery-frontend/node_modules/
