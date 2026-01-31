@@ -56,8 +56,10 @@ const AdminOrders = () => {
   };
 
   return (
-    <Box p={{ xs: 2, md: 4 }} maxWidth={1100} mx="auto">
-      <AdminNavbar />
+<>
+ <AdminNavbar />
+ <Box p={{ xs: 2, md: 4 }} maxWidth={1100} mx="auto">
+     
       <Typography variant="h4" mb={3}>
         Admin – Orders
       </Typography>
@@ -110,6 +112,10 @@ const AdminOrders = () => {
         ))}
       </Stack>
     </Box>
+
+</>
+
+   
   );
 };
 

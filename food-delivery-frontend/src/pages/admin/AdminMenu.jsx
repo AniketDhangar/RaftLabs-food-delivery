@@ -76,8 +76,10 @@ const AdminMenu = () => {
   };
 
   return (
-    <Box p={{ xs: 2, md: 4 }} maxWidth={1100} mx="auto">
+    <>
       <AdminNavbar />
+  <Box p={{ xs: 2, md: 4 }} maxWidth={1100} mx="auto">
+    
       {/* Header */}
       <Stack direction="row" justifyContent="space-between" mb={3}>
         <Typography variant="h4">Admin – Menu</Typography>
@@ -156,6 +158,8 @@ const AdminMenu = () => {
         onSubmit={handleEditMenu}
       />
     </Box>
+    </>
+  
   );
 };
 
